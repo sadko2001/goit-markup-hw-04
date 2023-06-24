@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--google font family connection - before <title>-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>WebStudio</title>
+
+    <!--підключення бібліотеки modern-normalize ВАЖЛИВО - щоб це посилання було ПЕРЕД стилями ! -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--повідомлення про css сімейство шрифтів-->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!--head of site-->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <!--logo-->
+          <a href="./index.html" class="header-logo link"
+            >Web<span class="header-logo-span">Studio</span>
+          </a>
+          <!--list of the future navigation-->
+          <ul class="header-menu list">
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="header-address">
+          <ul class="header-address-list list">
+            <li class="header-address-item">
+              <a
+                class="header-address-link link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-address-item">
+              <a class="header-address-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+
+    <!--main part-->
+    <main>
+      <section class="portfolio-section">
+        <div class="container">
+          <h1 class="visually-hidden">Projects</h1>
+
+          <ul class="projects-btn-list list">
+            <li class="projects-btn-item">
+              <button type="button" class="projects-btn-text">All</button>
+            </li>
+            <li class="projects-btn-item">
+              <button type="button" class="projects-btn-text">Web Site</button>
+            </li>
+            <li class="projects-btn-item">
+              <button type="button" class="projects-btn-text">App</button>
+            </li>
+            <li class="projects-btn-item">
+              <button type="button" class="projects-btn-text">Design</button>
+            </li>
+            <li class="projects-btn-item">
+              <button type="button" class="projects-btn-text">Marketing</button>
+            </li>
+          </ul>
+
+          <ul class="projects-list list">
+            <li class="projects-item">
+              <a href="" class="projects-item-link link">
+                <img
+                  src="./images/img_21.jpg"
+                  alt="seven screens of bank app"
+                  width="360"
+                  height="300"
+                />
+                <div class="border-text">
+                  <h2 class="projects-item-title">
+                    Banking App Interface Concept
+                  </h2>
+                  <p class="projects-item-text">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="" class="projects-item-link link">
+                <img
+                  src="./images/img_22.jpg"
+                  alt="smartphone in hand reading QR-code"
+                  width="360"
+                  height="300"
+                />
+                <div class="border-text">
+                  <h2 class="projects-item-title">Cashless Payment</h2>
+                  <p class="projects-item-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="" class="projects-item-link link">
+                <img
+                  src="./images/img_23.jpg"
+                  alt="smart phone on the background of the lap top"
+                  width="360"
+                  height="300"
+                />
+                <div class="border-text">
+                  <h2 class="projects-item-title">Meditation App</h2>
+                  <p class="projects-item-text">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="" class="projects-item-link link">
+                <img
+                  src="./images/img_24.jpg"
+                  alt="smartphone in a holder above the front panel of the car"
+                  width="360"
+                  height="300"
+                />
+                <div class="border-text">
+                  <h2 class="projects-item-title">Taxi Service</h2>
+                  <p class="projects-item-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="" class="projects-item-link link">
+                <img
+                  src="./images/img_25.jpg"
+                  alt="screen saver with the moon and 4 pictures on the right"
+                  width="360"
+                  height="300"
+                />
+                <div class="border-text">
+                  <h2 class="projects-item-title">Screen Illustrations</h2>
+                  <p class="projects-item-text">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="" class="projects-item-link link">
+                <img
+                  src="./images/img_26.jpg"
+                  alt="smiling beautiful girl looking at the camera of her smartphone"
+                  width="360"
+                  height="300"
+                />
+                <div class="border-text">
+                  <h2 class="projects-item-title">Online Courses</h2>
+                  <p class="projects-item-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="" class="projects-item-link link">
+                <img
+                  src="./images/img_27.jpg"
+                  alt="at the top are three full screens of a smartphone, at the bottom are three upper half screens"
+                  width="360"
+                  height="300"
+                />
+                <div class="border-text">
+                  <h2 class="projects-item-title">Instagram Stories Concept</h2>
+                  <p class="projects-item-text">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="" class="projects-item-link link">
+                <img
+                  src="./images/img_28.jpg"
+                  alt="a woman carries in her right hand a net with a set of vegetables"
+                  width="360"
+                  height="300"
+                />
+                <div class="border-text">
+                  <h2 class="projects-item-title">Organic Food</h2>
+                  <p class="projects-item-text">Web Site</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-item">
+              <a href="" class="projects-item-link link">
+                <img
+                  src="./images/img_29.jpg"
+                  alt="a man holds a cup of coffee in his left hand and pours milk from a vessel into it with his right hand"
+                  width="360"
+                  height="300"
+                />
+                <div class="border-text">
+                  <h2 class="projects-item-title">Fresh Coffee</h2>
+                  <p class="projects-item-text">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-----------FOOTER------------->
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="footer-logo link"
+          >Web<span class="footer-logo-span">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
